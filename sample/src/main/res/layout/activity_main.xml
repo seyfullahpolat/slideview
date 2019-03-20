@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:sv_buttonBackgroundColor="#fff"
+        app:sv_buttonImage="@drawable/swipe_button_icon"
         app:sv_slideBackgroundColor="@color/colorAccent"
         app:sv_slideText="Accept" />
 
@@ -27,9 +28,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
+        app:sv_buttonImage="@drawable/swipe_button_icon"
         android:layout_marginTop="15dp"
         app:sv_buttonBackgroundColor="@android:color/white"
-        app:sv_buttonImage="@drawable/ic_chevron_double_right_purple"
         app:sv_reverseSlide="true"
         app:sv_slideBackgroundColor="@color/colorPrimary"
         app:sv_slideText="Cancel" />
@@ -39,10 +40,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:sv_buttonBackgroundColor="@color/colorAccent"
-        app:sv_buttonImage="@drawable/ic_chevron_double_right_white_24dp"
         app:sv_slideBackgroundColor="@android:color/white"
         app:sv_slideText="Accept"
         app:sv_slideTextColor="@color/colorAccent"
+        app:sv_buttonImage="@drawable/swipe_button_icon"
         app:sv_strokeColor="@color/colorAccent" />
 
     <ng.max.slideview.SlideView
@@ -51,9 +52,10 @@
         android:layout_height="wrap_content"
         app:sv_reverseSlide="true"
         app:sv_buttonBackgroundColor="@color/colorPrimary"
-        app:sv_buttonImage="@drawable/ic_chevron_double_right_white_24dp"
         app:sv_slideBackgroundColor="@android:color/white"
         app:sv_slideText="Reverse"
+
+        app:sv_buttonImage="@drawable/swipe_button_icon"
         app:sv_slideTextColor="@color/colorPrimary"
         android:layout_marginBottom="15dp"
         android:layout_marginTop="15dp"/>
@@ -72,9 +74,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
+        app:sv_buttonImage="@drawable/swipe_button_icon"
         android:layout_marginTop="15dp"
         app:sv_buttonBackgroundColor="@android:color/white"
-        app:sv_buttonImage="@drawable/ic_settings_purple"
         app:sv_slideBackgroundColor="@color/slide_button_bg_selector"
         app:sv_slideText="Enabled"
         app:sv_buttonImageDisabled="@drawable/ic_settings_grey600_24dp" />
