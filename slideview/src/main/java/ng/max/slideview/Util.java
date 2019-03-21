@@ -32,7 +32,7 @@ class Util {
         if (drawable instanceof GradientDrawable) {
             GradientDrawable gradientDrawable = (GradientDrawable) drawable;
             gradientDrawable.mutate();
-            gradientDrawable.setStroke(4, color);
+            gradientDrawable.setStroke(2, color);
         }
     }
 

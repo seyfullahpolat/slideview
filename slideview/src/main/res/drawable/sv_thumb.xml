@@ -2,9 +2,8 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/buttonBackground">
         <shape android:shape="rectangle">
-
-
-            <corners android:radius="50dp"></corners>
+            <stroke android:width="0dp"></stroke>
+            <corners android:radius="44dp"></corners>
         </shape>
     </item>
     <item
